@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ onStart }) => {
         onClick={onStart}
         className="px-10 py-5 bg-red-600 hover:bg-red-700 text-white rounded-full font-bold text-xl shadow-2xl shadow-red-900/50 transition-all transform hover:scale-110 active:scale-95 border-2 border-red-400 select-none"
       >
-        Open My Heart ❤️
+        ONLY FOR YOU ❤️
       </button>
     </div>
   );

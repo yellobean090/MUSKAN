@@ -13,12 +13,12 @@ const App: React.FC = () => {
 
   // PLACEHOLDER IMAGES: Replace these with actual images of Muskan!
   const memories: Memory[] = [
-    { id: 1, url: 'https://picsum.photos/800/1000?random=1', caption: 'The day we first met.', date: 'August 14, 2023' },
-    { id: 2, url: 'https://picsum.photos/800/1000?random=2', caption: 'That beautiful smile of yours.', date: 'October 21, 2023' },
-    { id: 3, url: 'https://picsum.photos/800/1000?random=3', caption: 'Our favorite coffee spot.', date: 'December 5, 2023' },
-    { id: 4, url: 'https://picsum.photos/800/1000?random=4', caption: 'Walking hand in hand.', date: 'January 1, 2024' },
-    { id: 5, url: 'https://picsum.photos/800/1000?random=5', caption: 'Laughing at silly jokes.', date: 'February 10, 2024' },
-    { id: 6, url: 'https://picsum.photos/800/1000?random=6', caption: 'A moment I will never forget.', date: 'Just now' },
+    { id: 1, url: 'https://picsum.photos/800/1000?random=1', caption: 'SWEET', date: 'FOREVER' },
+    { id: 2, url: 'https://picsum.photos/800/1000?random=2', caption: 'That beautiful smile of yours.', date: 'KEEP SMILING' },
+    { id: 3, url: 'https://picsum.photos/800/1000?random=3', caption: 'CUTE', date: 'ALWAYS' },
+    { id: 4, url: 'https://picsum.photos/800/1000?random=4', caption: 'LOVELY', date: 'ALL THE TIME' },
+    { id: 5, url: 'https://picsum.photos/800/1000?random=5', caption: 'SILLY', date: 'CRAZY' },
+    { id: 6, url: 'https://picsum.photos/800/1000?random=6', caption: 'BEAUTIFUL', date: 'Than the world' },
   ];
 
   const handleStart = () => {

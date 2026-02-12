@@ -16,7 +16,7 @@ const ValentineAsk: React.FC = () => {
     return (
       <div className="py-40 px-6 text-center animate-bounce flex flex-col items-center justify-center">
         <h2 className="text-7xl md:text-9xl font-romantic text-red-500 mb-6 drop-shadow-xl">YES! ❤️</h2>
-        <p className="text-2xl md:text-4xl text-rose-200 font-serif italic">I love you more than words can say, Muskan!</p>
+        <p className="text-2xl md:text-4xl text-rose-200 font-serif italic">CRAZY HOGYA BHAISAHAB 😝</p>
         <div className="mt-8 text-5xl">🌹✨💖</div>
       </div>
     );
