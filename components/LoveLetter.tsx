@@ -55,7 +55,7 @@ const LoveLetter: React.FC = () => {
           disabled={loading}
           className="px-12 py-5 bg-rose-700 hover:bg-rose-800 text-white rounded-full font-bold text-lg shadow-2xl transition-all transform hover:scale-105 active:scale-95 disabled:opacity-50 select-none"
         >
-          {poem ? "Another One? 💝" : "Speak to NITYA 🌹"}
+          {poem ? "Another One? 💝" : "Speak to MUSKAN 🌹"}
         </button>
       </div>
     </div>

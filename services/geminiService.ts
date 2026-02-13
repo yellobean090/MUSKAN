@@ -8,7 +8,7 @@ export const generateRomanticPoem = async (mood: string): Promise<string> => {
   try {
     const response = await ai.models.generateContent({
       model: "gemini-3-flash-preview",
-      contents: `Write a short, beautiful, and deeply romantic 4-line poem for a girl named NITYA. The mood is ${mood}. Focus on her smile and how special she is. No hashtags.`,
+      contents: `Write a short, beautiful, and deeply romantic 4-line poem for a girl named MUSKAN. The mood is ${mood}. Focus on her smile and how special she is. No hashtags.`,
       config: {
         temperature: 0.9,
         topP: 1,
@@ -17,9 +17,9 @@ export const generateRomanticPoem = async (mood: string): Promise<string> => {
     });
 
     // Access .text property directly (not as a method)
-    return response.text || "Your smile lights up my world, NITYA. Every moment with you is a dream come true.";
+    return response.text || "Your smile lights up my world, MUSKAN. Every moment with you is a dream come true.";
   } catch (error) {
     console.error("Gemini Error:", error);
-    return "In every breath, in every beat, NITYA, you make my life complete.";
+    return "In every breath, in every beat, MUSKAN, you make my life complete.";
   }
 };
