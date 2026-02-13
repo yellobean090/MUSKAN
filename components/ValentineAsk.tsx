@@ -25,7 +25,7 @@ const ValentineAsk: React.FC = () => {
   return (
     <div className="py-32 px-6 text-center relative z-10 min-h-[600px] flex flex-col justify-center items-center overflow-hidden">
       <h2 className="text-5xl md:text-8xl font-romantic text-rose-100 mb-16 drop-shadow-lg max-w-2xl">
-        Will you be my Valentine, Muskan?
+        Will you be my Valentine, NITYA?
       </h2>
       <div className="flex flex-col sm:flex-row gap-8 items-center justify-center w-full max-w-sm mx-auto">
         <button 
@@ -48,7 +48,7 @@ const ValentineAsk: React.FC = () => {
           No
         </button>
       </div>
-      <p className="mt-20 text-rose-400/40 font-serif italic text-sm">(You can't say no, Muskan... try it! 😉)</p>
+      <p className="mt-20 text-rose-400/40 font-serif italic text-sm">(You can't say no, NITYA... try it! 😉)</p>
     </div>
   );
 };
